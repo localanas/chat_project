@@ -32,8 +32,10 @@ git clone https://github.com/localanas/chat_project.git
 ```
 La racine du projet est ```/chat_project/``` configurable dans : ```chat_project/.env``` .
 
-2 - Importer la base de données:
+2- charger autoloader et creation de dependence (vendor) de mon application via :
+```composer install ``` .
 
+3 - Importer la base de données:
 Le fichier est dans la racine du projet : ```chat_project/chat_project_db.sql``` .
 Le nom de la bd est ```chat_project_db``` .
 La configuration de la bd est dans le fichier : ```chat_project/.env``` .
