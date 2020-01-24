@@ -42,8 +42,9 @@ La configuration de la bd est dans le fichier : ```chat_project/.env``` .
 
 ## Usage
 
-1 - Pour utiliser l'app, allez sur ```localhost/chat_project```, voici les logins :
-La page de login : ```http://localhost/chat_project/authentication/``` .
+1 - Pour utiliser l'application j'ai crée automatiquement 4 compte pour le test, allez sur ```localhost/chat_project```, voici les logins :
+
+La page de login c'est une page par default voila le lien : ```http://localhost/chat_project/authentication/``` .
  
  ```user 1 = anas, password = anas``` 
  
