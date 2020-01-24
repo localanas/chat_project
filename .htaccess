@@ -1,0 +1,5 @@
+# Réécrit une URL de type xxx/yyy/zzz en index.php?controleur=xxx&action=yyy&id=zzz
+# c'est une norme des plusieurs framework il donne des jolie url plus avantage pour réduire beaucoup de traitement
+# ainsi les urls deveenir un peu friend pour les motors de recherche
+RewriteEngine on
+RewriteRule ^([a-zA-Z]*)/?([a-zA-Z]*)?/?([a-zA-Z0-9]*)?/?$ index.php?controller=$1&action=$2&id=$3 [NC,L]
