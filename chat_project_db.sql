@@ -41,9 +41,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `status`) VALUES
-(1, 'imane', '$2y$10$RcRDd6b09MpEZPO1fkhVd.VvXm9hDa8tyGVs.RFU8iojIv6suU4.O', 1),
+(1, 'imane', '$2y$10$RcRDd6b09MpEZPO1fkhVd.VvXm9hDa8tyGVs.RFU8iojIv6suU4.O', 0),
 (2, 'anas', '$2y$10$RcRDd6b09MpEZPO1fkhVd.VvXm9hDa8tyGVs.RFU8iojIv6suU4.O', 0),
-(3, 'fatima', '$2y$10$RcRDd6b09MpEZPO1fkhVd.VvXm9hDa8tyGVs.RFU8iojIv6suU4.O', 1),
+(3, 'fatima', '$2y$10$RcRDd6b09MpEZPO1fkhVd.VvXm9hDa8tyGVs.RFU8iojIv6suU4.O', 0),
 (4, 'morad', '$2y$10$RcRDd6b09MpEZPO1fkhVd.VvXm9hDa8tyGVs.RFU8iojIv6suU4.O', 0);
 
 --
