@@ -1,4 +1,5 @@
 <?php
+
 namespace  Framework\Router;
 
 use Framework\Request\Request;
@@ -48,12 +49,12 @@ class Router implements RouterInterface
 
         // définir le namespace de ce controller pour instancée
         $controllerClass =  "App\\Controller\\".$controller."Controller";
+        
         if (class_exists($controllerClass)) {
             $controller = new $controllerClass();
             $controller->setRequest($request);
             return $controller;
         }
-
         else
             throw new \Exception("Class '$controllerClass' introuvable");
     }

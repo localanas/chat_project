@@ -7,6 +7,7 @@
                         <h3 class="panel-title">s'il vous plaît Authentifier vous  !!!</h3>
                     </div>
                     <div class="panel-body">
+                        <!-- appel a le formulaire réutilisable -->
                         <?php include 'include/_form_authentication.php';?>
                     </div>
                 </div>

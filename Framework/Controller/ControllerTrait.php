@@ -7,7 +7,8 @@ namespace  Framework\Controller;
  */
 trait ControllerTrait
 {
- // si on trouve aprés  des fonctionalité se repeter dans plusieurs controller on va regrouper dans se trait
+     //si on trouve aprés  des fonctionalité se repeter dans plusieurs controller on va regrouper dans se trait
+    
     /**
      * Exécute l'action à réaliser
      * @param $action

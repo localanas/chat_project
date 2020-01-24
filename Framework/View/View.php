@@ -1,4 +1,5 @@
 <?php
+
 namespace  Framework\View;
 
 use Framework\Config\Config;

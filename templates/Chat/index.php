@@ -4,7 +4,7 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Chat</h1>
+                <h1 class="page-header">Simple Chat</h1>
             </div>
         </div>
         <div class="row">
@@ -21,10 +21,11 @@
                     </div>
                     <div class="panel-body">
                         <ul id="chat_list" class="chat">
-
+                        <!-- partie http via ajax on recupére les message de la conversasion entre 2 personnes -->
                         </ul>
                     </div>
                     <div class="panel-footer">
+                        <!-- grace a ce  formulaire on peut sumbiter les message en temps réel -->
                         <form id="postMessage" class="">
                             <div class="input-group">
                                 <input id="btn-input" type="text" name="content" class="form-control input-sm"

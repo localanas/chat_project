@@ -1,3 +1,4 @@
+<!-- pour réutiliser ce formulaire dans autre place c'est on a méme principe --> 
 <form role="form" action="authentication/login" method="POST">
     <fieldset>
         <?php if (isset($msgErreur)): ?>

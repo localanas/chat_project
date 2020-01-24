@@ -1,4 +1,5 @@
 <?php foreach ($messages as $message): ?>
+        <!-- les message de user connecter dans une conversation -->
         <?php if ($user['id'] == $message['id_user']): ?>
             <li class="left clearfix">
                 <span class="chat-img pull-left">
@@ -24,6 +25,7 @@
                 </div>
             </li>
         <?php else: ?>
+            <!-- les message  une conversation  avec laquelle on va discuter -->
             <li class="right clearfix">
                 <span class="chat-img pull-right">
                     <img src="assets/img/moi.png" alt="User Avatar" class="img-circle"/>

@@ -18,7 +18,7 @@
                     </div>
                     <div class="panel-body">
                         <ul id="users_list" class="chat">
-
+                        <!-- on récuper ici la liste des membres dans ma platform de chat (les users)  -->
                         </ul>
                     </div>
                 </div>

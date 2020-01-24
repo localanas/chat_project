@@ -1,3 +1,4 @@
+<!-- la listes des membres sur mon site avec la possibilté d'ecrire si son status en ligne ou offline -->
 <?php foreach ($users as $user): ?>
     <li class="left clearfix">
         <a href="chat/<?= $user['id'] ?>" style="display: block">

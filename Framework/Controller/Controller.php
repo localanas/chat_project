@@ -1,4 +1,5 @@
 <?php
+
 namespace  Framework\Controller;
 
 use Framework\Config\Config;

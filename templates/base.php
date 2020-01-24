@@ -1,3 +1,4 @@
+<!-- page layout ou comme base.html.twig en symfony s'est mon gabarit de site -->
 <!doctype html>
 <html lang="en">
     <head>
@@ -26,10 +27,10 @@
                 </div>
                 <div id="contenu">
                     <?= $content ?>
-                </div> <!-- #contenu -->
+                </div> <!-- #contenu  se sont les vues dérivant comme principe de block contenu endBlock en symfony -->
                 <footer class="text-center" id="piedBlog">
                     <div class="jumbotron jumbotron-fluid">
-                                <h3>Chat réalisé avec PHP5, HTML5, CSS3, Bootstrap3 et Jquery(Ajax partie requete Http)</h3>
+                        <h3>Chat réalisé avec PHP5, HTML5, CSS3, Bootstrap3 et Jquery(Ajax partie requete Http)</h3>
                     </div>
                 </footer>
             </div>
