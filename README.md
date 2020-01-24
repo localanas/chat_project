@@ -34,6 +34,7 @@ La racine du projet est ```/chat_project/``` configurable dans : ```chat_project
 car dans mon exemple j'utiliser xumpp avec root pour le user et sans mots de pass vous pouvez modifier ce fichier selon votre configuration
 
 2- charger autoloader et creation de dependence (vendor) de mon application via :
+
 ```composer install ``` .
 
 3 - Importer la base de données:
